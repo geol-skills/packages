@@ -5,7 +5,7 @@ the geol-skills course, served at <https://geol-skills.github.io/packages>.
 
 | Package | Purpose |
 |---|---|
-| [BGS](https://github.com/geol-skills/BGS) | Bedrock, superficial deposits and seabed sediments at a point |
+| [BGS](https://github.com/geol-skills/BGS) | Bedrock and superficial deposits at a point, on land or at sea |
 
 ## Install
 
