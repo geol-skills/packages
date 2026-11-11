@@ -89,7 +89,7 @@ jobs:
     if: needs.version.outputs.needed == 'true'
     runs-on: ubuntu-latest
     steps:
-      - uses: r-wasm/actions/build-rwasm@v2
+      - uses: r-wasm/actions/build-rwasm@v3
         with:
           packages: github::geol-skills/BGS@${{ needs.version.outputs.sha }}
           repo-path: _wasm
