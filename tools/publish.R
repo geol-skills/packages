@@ -27,7 +27,8 @@ for (file in wasm) {
 # Packages here are pure R. Without a binary index, R on Windows and macOS
 # warns before falling back to source; an empty index silences it.
 binaries <- c("windows/contrib", "macosx/contrib",
-              "macosx/big-sur-arm64/contrib", "macosx/big-sur-x86_64/contrib")
+              "macosx/big-sur-arm64/contrib", "macosx/big-sur-x86_64/contrib",
+              "macosx/sonoma-arm64/contrib", "macosx/sonoma-x86_64/contrib")
 for (dir in file.path("bin", rep(binaries, each = 10),
                       paste0("4.", 0:9))) {
   dir.create(dir, recursive = TRUE, showWarnings = FALSE)

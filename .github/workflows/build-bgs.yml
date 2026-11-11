@@ -6,7 +6,8 @@
 #     update it when quarto-live's webR changes);
 #   - empty PACKAGES stubs under bin/windows and bin/macosx, so that Windows
 #     and macOS R install the pure-R source quietly rather than warn about a
-#     missing binary index.
+#     missing binary index. When R adopts a new macOS binary folder, the
+#     macOS smoke test fails with its name: add it to tools/publish.R.
 # Publishes when BGS's DESCRIPTION has a version not yet here: daily, or on
 # demand. Then installs from the live URL, as students will.
 
@@ -182,6 +183,6 @@ jobs:
         with:
           node-version: 22
 
-      - run: npm install --no-save "$WEBR_NPM"
+      - run: npm install --no-save "$WEBR_NPM" ws
 
       - run: node tools/smoke-webr.mjs "$REPO_URL"
