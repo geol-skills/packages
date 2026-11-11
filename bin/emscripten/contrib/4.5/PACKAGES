@@ -3,6 +3,6 @@ Version: 0.1.0
 Depends: R (>= 4.1)
 Suggests: spelling, testthat (>= 3.0.0)
 License: GPL (>= 2)
-MD5sum: 398a0ddce9fc15cd8d9fb3eb74b0523a
-Built: R 4.5.1; ; 2026-11-11 07:22:15 UTC; unix
+MD5sum: dbaa59103c0c88f6adc5376a0fe86b22
+Built: R 4.5.1; ; 2026-11-11 07:26:49 UTC; unix
 File: BGS_0.1.0.tgz

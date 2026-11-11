@@ -3,5 +3,5 @@ Version: 0.1.0
 Depends: R (>= 4.1)
 Suggests: spelling, testthat (>= 3.0.0)
 License: GPL (>= 2)
-MD5sum: cfaeebb1a63c3a4a0f5377aa0a587c72
+MD5sum: 023496719cdc0ba58989ab8a2d1be68a
 NeedsCompilation: no
